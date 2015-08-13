@@ -19,6 +19,7 @@ class DeviceProxy():
         self.keep_alive = keep_alive
         self.use_https = use_https
         self.forwarded_ip = forwarded_ip
+        self.headers = {}
         self.logon()
 
     def get_connection(self):
